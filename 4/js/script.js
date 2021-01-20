@@ -16,3 +16,12 @@ if (hourNow > 18) {
 }
 
 console.log(greeting);
+
+let incr = 10,
+    decr = 10;
+
+console.log(incr++);
+console.log(decr--);
+
+console.log(incr);
+console.log(decr);
