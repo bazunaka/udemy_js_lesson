@@ -50,4 +50,12 @@ function detectPersonalLevel() {
 
 detectPersonalLevel();
 
+function showMyDB(hidden) {
+    if (!hidden) {
+        console.log(personalMoviesDb);
+    }
+}
+
+showMyDB(personalMoviesDb.privat);
+
 console.log(personalMoviesDb);
