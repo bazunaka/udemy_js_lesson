@@ -59,3 +59,12 @@ function showMyDB(hidden) {
 showMyDB(personalMoviesDb.privat);
 
 console.log(personalMoviesDb);
+
+function writeYourGenres() {
+    for (let i = 1; i <= 3; i ++) {
+        const genre = prompt(`Ваш любимый жанр под номером ${i}`);
+        personalMoviesDb.genres[i - 1] = genre;
+    }
+}
+
+writeYourGenres();
